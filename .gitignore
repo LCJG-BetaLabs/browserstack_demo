@@ -4,3 +4,4 @@ apps/
 .DS_Store
 logs
 .env.secrets
+local.log

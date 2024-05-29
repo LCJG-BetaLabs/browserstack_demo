@@ -17,5 +17,5 @@
             "@wdio/browserstack-service",
             "@wdio/appium-service"
         ],
-    }
+    },
 }
