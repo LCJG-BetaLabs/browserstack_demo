@@ -1,7 +1,14 @@
 {
     "compilerOptions": {
-        "moduleResolution": "node",
-        "module": "ESNext",
+        "sourceMap": false,
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "Node16",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
         "types": [
             "node",
             "@wdio/globals/types",
@@ -10,6 +17,5 @@
             "@wdio/browserstack-service",
             "@wdio/appium-service"
         ],
-        "target": "es2022"
-    }
+    },
 }
