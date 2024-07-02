@@ -14,8 +14,10 @@
             "@wdio/globals/types",
             "expect-webdriverio",
             "@wdio/cucumber-framework",
+            "@wdio/mocha-framework",
             "@wdio/browserstack-service",
-            "@wdio/appium-service"
+            "@wdio/appium-service",
+            "@wdio/visual-service"
         ],
     },
 }

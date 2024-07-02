@@ -3,6 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "type": "module",
+    "resolutions": {
+        "wrap-ansi": "7.0.0"
+    },
     "devDependencies": {
         "@eslint/js": "^9.3.0",
         "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -14,6 +17,7 @@
         "@wdio/local-runner": "^8.36.1",
         "@wdio/mocha-framework": "^8.3.0",
         "@wdio/spec-reporter": "^8.36.1",
+        "@wdio/visual-service": "^5.1.0",
         "appium": "^2.0.0-beta.55",
         "appium-uiautomator2-driver": "^2.12.3",
         "appium-xcuitest-driver": "^4.16.12",
@@ -36,6 +40,7 @@
         "android.browserstack.app": "wdio run config/browserstack/wdio.android.bs.app.conf.ts",
         "ios.browserstack.app": "wdio run config/browserstack/wdio.ios.bs.app.conf.ts",
         "android.app": "wdio run config/wdio.android.app.conf.ts",
+        "android.app.visual": "wdio run config/wdio.android.app.visual.conf.ts",
         "ios.app": "wdio run config/wdio.ios.app.conf.ts",
         "lint": "eslint tests config",
         "format": "prettier --check config test",
