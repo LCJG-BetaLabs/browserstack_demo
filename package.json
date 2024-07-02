@@ -21,6 +21,7 @@
         "appium": "^2.0.0-beta.55",
         "appium-uiautomator2-driver": "^2.12.3",
         "appium-xcuitest-driver": "^4.16.12",
+        "browserstack-node-sdk": "^1.34.1",
         "eslint-config-standard-with-typescript": "^43.0.1",
         "eslint-plugin-import": "^2.25.2",
         "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",

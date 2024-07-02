@@ -29,10 +29,12 @@ export const config: WebdriverIO.Config = {
         buildIdentifier: "${BUILD_NUMBER}",
         browserstackLocal: true,
         buildName: `${process.env.ENV}_${process.env.VERSION}`,
-        projectName: "wdio-test-project",
+        projectName: "elsie-visual-test",
         buildTag: cucumberTagExpression,
         enablePasscode: true,
         debug: true,
+        percy: true,
+        percyCaptureMode: 'auto'
       },
     ],
   ],

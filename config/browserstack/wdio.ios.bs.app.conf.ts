@@ -33,6 +33,8 @@ export const config: WebdriverIO.Config = {
         buildTag: cucumberTagExpression,
         enablePasscode: true,
         debug: true,
+        percy: true,
+        percyCaptureMode: 'auto'
       },
     ],
   ],
